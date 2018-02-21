@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+<header>
+ 	<div class="test">
+	 	<ul>
+	 		<li><a href="#">Apie</a></li>
+	 		<li><a href="#">Random nuoroda</a></li>
+	 		<li><a href="#">Kontaktai</a></li>
+	 	</ul>
+ 	</div>
+ 	<h1>RL's BLOG</h1>
+ </header>
+
+
+
+</body>
+</html>

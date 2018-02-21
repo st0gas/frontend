@@ -1,0 +1,13 @@
+.hide {
+	display:none;
+}
+
+.ul__list {
+	font-family: tahoma;
+	background-color: rgb(47,191,191);;
+	color:white;
+}
+
+li {
+	border-bottom:1px solid black;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html class="tablesaw-enhanced">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TableSaw lentelė</title>
+
+  <link rel="stylesheet" href="tablesaw.css">
+
+  <script>
+  var TablesawConfig = {
+    i18n: {
+      swipePreviousColumn: "The column before",
+      swipeNextColumn: "The column after"
+    },
+    swipe: {
+      horizontalThreshold: 45,
+      verticalThreshold: 45
+    }
+  };
+  </script>
+  <script src="tablesaw.js"></script>
+  <script src="tablesaw-init.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- <script src="//filamentgroup.github.io/demo-head/loadfont.js"></script> -->
+</head>
+<body>
+
+<h2>Responsive Lentelė su swipe</h2>
+    <table class="tablesaw tablesaw-swipe" data-tablesaw-mode="swipe">
+      <thead>
+        <tr>
+          <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="persist">Vardas</th>
+          <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col data-tablesaw-priority="3">Lytis</th>
+          <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2">Gimimo metai</th>
+          <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="1">Vieta</th>
+          <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="4">Stat</th>
+          <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="4">Stat2</th>
+          <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="4">Stat3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="title">Jonas</td>
+          <td>V</td>
+          <td>2009</td>
+          <td>2</td>
+          <td>1024</td>
+          <td>45</td>
+          <td>548</td>
+        </tr>
+        <tr>
+          <td class="title">Pranas</td>
+          <td>V</td>
+          <td>1997</td>
+          <td>1</td>
+          <td>863</td>
+          <td>2</td>
+          <td>1024</td>
+        </tr>
+        <tr>
+          <td class="title">Auguste</td>
+          <td>M</td>
+          <td>2012</td>
+          <td>4</td>
+          <td>1087</td>
+          <td>2</td>
+          <td>1024</td>
+        </tr>
+        <tr>
+          <td class="title">Jurgis</td>
+          <td>V</td>
+          <td>2011</td>
+          <td>3</td>
+          <td>546</td>
+          <td>2</td>
+          <td>487</td>
+        </tr>
+        <tr>
+          <td class="title">Vilius</td>
+          <td>V</td>
+          <td>2013</td>
+          <td>5</td>
+          <td>221</td>
+          <td>2</td>
+          <td>784</td>
+        </tr>
+     
+      </tbody>
+    </table>
+
+
+<h2> Primitivi responsive lenta</h2>
+<div class="tbl_wrapper">
+   <table class="simple_tbl">
+      <thead>
+        <tr>
+          <th>Vardas</th>
+          <th>Lytis</th>
+          <th>Gimimo metai</th>
+          <th>Vieta</th>
+          <th>Stat</th>
+          <th>Stat2</th>
+          <th>Stat3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jonas</td>
+          <td>V</td>
+          <td>2009</td>
+          <td>2</td>
+          <td>1024</td>
+          <td>45</td>
+          <td>548</td>
+        </tr>
+        <tr>
+          <td>Pranas</td>
+          <td>V</td>
+          <td>1997</td>
+          <td>1</td>
+          <td>863</td>
+          <td>2</td>
+          <td>1024</td>
+        </tr>
+        <tr>
+          <td>Auguste</td>
+          <td>M</td>
+          <td>2012</td>
+          <td>4</td>
+          <td>1087</td>
+          <td>2</td>
+          <td>1024</td>
+        </tr>
+        <tr>
+          <td>Jurgis</td>
+          <td>V</td>
+          <td>2011</td>
+          <td>3</td>
+          <td>546</td>
+          <td>2</td>
+          <td>487</td>
+        </tr>
+        <tr>
+          <td>Vilius</td>
+          <td>V</td>
+          <td>2013</td>
+          <td>5</td>
+          <td>221</td>
+          <td>2</td>
+          <td>784</td>
+        </tr>
+     
+      </tbody>
+    </table>
+  </div>
+
+   
+  </div>
+
+
+</body>
+</html>

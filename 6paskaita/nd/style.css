@@ -1,0 +1,50 @@
+h2, a {
+	font-family: tahoma;
+}
+
+th,tr {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+th {
+	background-color: #6c7ae0;
+	color: white;
+}
+
+tr {
+	border-bottom: 1px solid #ccc; 
+}
+
+table {
+	border-radius: 10px;
+}
+
+tr th {
+	text-align: center;
+}
+
+.tablesaw thead th {
+	text-align: center;
+}
+
+.tablesaw td {
+	text-align: center;
+}
+
+.tbl_wrapper {
+	overflow-x:auto;
+}
+
+.simple_tbl {
+	overflow-x:auto;
+	width: 100%;
+	border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
